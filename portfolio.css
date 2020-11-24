@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding-top: 80px; 
+}
+h1{
+  color: rgb(163, 116, 116);
+
+}
+a{
+  text-decoration: none;
+  color: rgb(163, 116, 116);
+}
+
+#header-btn {
+    
+    background: #ffffff;
+    color: rgb(163, 116, 116);
+    padding: 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+  border-radius: 7px;}
+
+/* html{
+
+    scroll-behavior: smooth;
+} */
+nav{
+    background: #ffffff;
+    color: rgb(163, 116, 116);
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* background:#022038; */
+    display: flex;
+    height: 80px;
+    width: 100%;
+    padding: 0 10px;
+    /* color: #0b6a8e; */
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+ nav a{
+    color: inherit;
+    margin-left: 20px;
+}
+.landing-page{
+    background-attachment: fixed;
+    background-image: url("https://images.unsplash.com/photo-1519642918688-7e43b19245d8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1055&q=80");
+    background-position: 50%;
+    height: 80vh;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    /* font-size: 50px; */
+}
+
+section {
+  width: 100%;
+  padding: 50px 10%;
+}
+
+footer{
+    width: 100%;
+    padding: 50px 10%;
+    background: #ffffff;
+    color: rgb(163, 116, 116);
+}
+
+/* Pseudo-selector */
+section:nth-of-type(odd) {
+  background: #f5f5f5;
+}
+
+h3 {
+  text-decoration: underline;
+ 
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-4 {
+  width: calc(100% / 12 * 4);
+  padding: 20px;
+}
+
+.col-6 {
+  width: 50%;
+  padding: 20px;
+}
+
+img {
+  max-width: 100%;
+  /* border-radius: 50%; */
+
+}
+.ruby{
+/* position: relative;
+left: -60px;
+top: 10px; */
+margin-top: 20px;
+/* margin-left: 0px; */
+  width: 180px;
+}
+
+.ajax{
+   width: 220px;
+   margin-left: -150px;
+   margin-top: 20px;
+}
+
+.rea{
+    width: 100px;
+    margin-left: 10px;
+}
+
+.node{
+   width: 200px;
+    margin-left: -140px;
+    margin-top: -20px;
+}
+
+.sql{
+   width: 120px;
+    margin-left: -200px;
+    margin-top: -20px;
+}
+.post{
+    width: 180px;
+}
+@media (max-width: 768px) {
+  .sm-col-12 {
+    width: 100%;
+  }
+
+  img {
+    border-radius: 0;
+  }
+}
+
